@@ -1,0 +1,15 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 70px;
+}
+
+.logo {
+  font-size: 1.8rem;
+}
+
+.navbar-list li {
+  display: inline-block;
+  margin: 0 20px;
+}
