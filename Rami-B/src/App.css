@@ -1,6 +1,9 @@
 @import url("https://db.onlinewebfonts.com/c/445ccef3bbf37f44af705673c9f24d11?family=Agrandir+Grand+Light");
 @import url("https://db.onlinewebfonts.com/c/adec4d42fc6c6391a3b0f391c45f7a64?family=Beatrice");
+@import url(https://db.onlinewebfonts.com/c/73e0fc96eb73ae25fd95435dd694cbb5?family=Aileron+Bold);
+@import url(https://db.onlinewebfonts.com/c/4366ceae6f7564999a0f0c3e8698a4ad?family=Neue+Montreal);
 
+@import url(https://db.onlinewebfonts.com/c/eccf30d3af8a69bf0b97f01c6d46b8e2?family=Agrandir+Grand+Heavy);
 @font-face {
   font-family: "Agrandir Grand Light";
   src: url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.eot");
@@ -23,7 +26,19 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --color-primary: #adbec9;
+
+  --color-secondary: #ce7964;
+
+  --color-black: #111111;
+  --color-font: #393636;
+  --color-white: #ffffff;
+}
+
 body {
-  /* font-family: "Agrandir Grand Light", sans-serif; */
-  font-family: "Beatrice", sans-serif;
+  font-family: "Agrandir Grand Light", sans-serif;
+  /* font-family: "Beatrice", sans-serif; */
+  /* font-family: "Aileron Bold", sans-serif; */
+  /* font-family: "Neue Montreal", sans-serif; */
 }
