@@ -6,7 +6,7 @@ import "../styles/education.css";
 
 export default function Education() {
   return (
-    <div id="education" className="education">
+    <section id="education" className="education">
       <div className="education-container">
         <div className="left-col">
           <h2 className="education-title">Education</h2>
@@ -58,6 +58,6 @@ export default function Education() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
