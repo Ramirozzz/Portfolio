@@ -1,5 +1,5 @@
 .about-container {
-  margin: 100px 170px 50px 170px;
+  margin: 100px 100px 50px 100px;
 }
 
 .about-title {
@@ -26,7 +26,7 @@
 .about-text {
   font-size: 1.45rem;
   color: var(--color-font);
-  text-indent: 12%;
+  text-indent: 10%;
   line-height: 1.7;
   margin: 45px 0;
 }
@@ -35,6 +35,7 @@
   display: block;
   text-indent: 0%;
   margin-top: 25px;
+  color: var(--color-font);
 }
 
 .about-text .strong-text {
@@ -47,89 +48,4 @@
   background-color: var(--color-secondary);
   padding: 3px;
   font-weight: 800;
-}
-
-/* Resume Button */
-
-.btn-container {
-  width: 100%;
-  display: flex;
-  justify-content: start;
-}
-
-.button {
-  position: relative;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(135deg, #111111 -20%, #353535 120%);
-  border: none;
-  border-radius: 8px;
-
-  margin-top: 15px;
-  overflow: hidden;
-}
-
-.button,
-.button__icon,
-.button__text {
-  transition: all 0.3s;
-}
-
-.button .button__text {
-  transform: translateX(0px);
-  color: var(--color-white);
-  font-size: 0.95rem;
-  font-weight: 500;
-  font-family: "Beatrice";
-  letter-spacing: 1.4px;
-}
-
-.button .button__icon {
-  position: absolute;
-  transform: translateX(60px);
-  height: 100%;
-  width: 39px;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button .svg {
-  width: 20px;
-  fill: var(--color-white);
-}
-
-.button:hover .svg {
-  fill: var(--color-font);
-}
-
-.button:hover {
-  /* background: linear-gradient(
-      135deg,
-      var(--color-text) -20%,
-      var(--color-blue) 120%
-    ); */
-  background: var(--color-secondary);
-}
-
-.button:hover .button__text {
-  color: transparent;
-}
-
-.button:hover .button__icon {
-  width: 148px;
-  transform: translateX(0);
-}
-
-.button:active .button__icon {
-  background-color: var(--color-font);
-}
-
-.button:active {
-  border: 1px solid var(--color-font);
 }

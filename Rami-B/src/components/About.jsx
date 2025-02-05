@@ -15,7 +15,7 @@ export default function About() {
     };
   }, []);
 
-  const textColor = scrollPosition > 450 ? "#393636" : "#c4c4c4";
+  const textColor = scrollPosition > 470 ? "#222222" : "#c4c4c4";
   return (
     <section id="about" className="about">
       <div className="about-container">
@@ -25,14 +25,17 @@ export default function About() {
 
         <p
           className="about-text"
-          style={{ color: textColor, transition: "all 0.6s ease" }}
+          style={{ color: textColor, transition: "all 0.8s ease" }}
         >
           My name is Rami Balaghi and I enjoy with passion creating dynamic web
           experiences. My interest in
           <strong className="strong-text"> Web Development</strong> is huge, and
           I thrive when I'm designing, learning, exploring, and constantly
           thinking about how to improve and optimize. <br />
-          <span className="about-text-span">
+          <span
+            style={{ color: textColor, transition: "all 0.8s ease" }}
+            className="about-text-span"
+          >
             As a dedicated
             <strong className="strong-text"> Junior Frontend Developer </strong>
             student, I am right now in the LIA (Learning in Work) phase of my
@@ -41,7 +44,7 @@ export default function About() {
             expand my knowledge.
           </span>
         </p>
-        <div className="btn-container">
+        {/* <div className="btn-container">
           <button className="button" type="button">
             <span className="button__text">Resume</span>
             <span className="button__icon">
@@ -60,7 +63,7 @@ export default function About() {
               </a>
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

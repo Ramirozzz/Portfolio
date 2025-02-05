@@ -12,12 +12,11 @@
 }
 
 .hero-container {
-  position: absolute;
-  top: 18%;
+  padding-top: 10vh;
 }
 
 .hero-span p {
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   font-style: italic;
   font-family: "Agrandir Grand Light", sans-serif;
   font-weight: 800;
@@ -42,6 +41,7 @@
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 4px;
   color: var(--color-bg) !important;
   font-family: "Neue Montreal", sans-serif !important;
   -webkit-text-stroke-width: 2px !important;

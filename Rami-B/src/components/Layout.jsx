@@ -5,6 +5,7 @@ import { Outlet, Link } from "react-router-dom";
 
 import "../styles/layout.css";
 import About from "./About";
+import Education from "./Education";
 
 export default function Layout() {
   return (
@@ -15,6 +16,7 @@ export default function Layout() {
       <main>
         <Hero />
         <About />
+        <Education />
       </main>
     </>
   );

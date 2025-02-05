@@ -14,7 +14,7 @@ export default function Navbar() {
             <li className="navbar-links">Hem</li>
           </a>
 
-          <a href="/">
+          <a href="#education">
             <li className="navbar-links">Education</li>
           </a>
 
