@@ -5,12 +5,11 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-container">
+        <span className="hero-span">
+          <p>Hi i'm Rami B</p>
+        </span>
         <h1>
-          <span className="hero-span">
-            <p>Hi i'm</p>
-          </span>
-          Rami B <br />
-          a Junior <br />
+          <span className="text-stroke">Junior </span> <br />
           Frontend <br /> developer
         </h1>
 

@@ -1,8 +1,10 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
 import { Outlet, Link } from "react-router-dom";
 
 import "../styles/layout.css";
+import About from "./About";
 
 export default function Layout() {
   return (
@@ -11,7 +13,8 @@ export default function Layout() {
         <Navbar />
       </header>
       <main>
-        <Outlet />
+        <Hero />
+        <About />
       </main>
     </>
   );

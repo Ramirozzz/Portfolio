@@ -1,0 +1,135 @@
+.about-container {
+  margin: 100px 170px 50px 170px;
+}
+
+.about-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-font);
+
+  /* background-image: linear-gradient(to right, #ffa08b, #b46aff); */
+  /* background: linear-gradient(
+    260deg,
+    rgba(194, 131, 72, 0.5) 30%,
+    #f8dcd0 40%,
+    #e6865a 50%,
+    #f7bb9f 75%
+  ); */
+
+  /* -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text; */
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.about-text {
+  font-size: 1.45rem;
+  color: var(--color-font);
+  text-indent: 12%;
+  line-height: 1.7;
+  margin: 45px 0;
+}
+
+.about-text-span {
+  display: block;
+  text-indent: 0%;
+  margin-top: 25px;
+}
+
+.about-text .strong-text {
+  font-size: 1.4rem;
+  /* background-image: radial-gradient(circle at 80% 0, #fcd3ca, #e6865a 50%); */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: var(--color-font);
+  background-color: var(--color-secondary);
+  padding: 3px;
+  font-weight: 800;
+}
+
+/* Resume Button */
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.button {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(135deg, #111111 -20%, #353535 120%);
+  border: none;
+  border-radius: 8px;
+
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.button,
+.button__icon,
+.button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(0px);
+  color: var(--color-white);
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: "Beatrice";
+  letter-spacing: 1.4px;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(60px);
+  height: 100%;
+  width: 39px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button .svg {
+  width: 20px;
+  fill: var(--color-white);
+}
+
+.button:hover .svg {
+  fill: var(--color-font);
+}
+
+.button:hover {
+  /* background: linear-gradient(
+      135deg,
+      var(--color-text) -20%,
+      var(--color-blue) 120%
+    ); */
+  background: var(--color-secondary);
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.button:active .button__icon {
+  background-color: var(--color-font);
+}
+
+.button:active {
+  border: 1px solid var(--color-font);
+}

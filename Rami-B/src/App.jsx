@@ -10,9 +10,7 @@ function App() {
     <div className="portfolio">
       <BrowserRouter>
         <Routes>
-          <Route path="" element={<Layout />}>
-            <Route index element={<Home />} />
-          </Route>
+          <Route index element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>

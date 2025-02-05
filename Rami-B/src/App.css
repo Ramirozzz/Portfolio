@@ -4,20 +4,6 @@
 @import url(https://db.onlinewebfonts.com/c/4366ceae6f7564999a0f0c3e8698a4ad?family=Neue+Montreal);
 
 @import url(https://db.onlinewebfonts.com/c/eccf30d3af8a69bf0b97f01c6d46b8e2?family=Agrandir+Grand+Heavy);
-@font-face {
-  font-family: "Agrandir Grand Light";
-  src: url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.eot");
-  src: url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/445ccef3bbf37f44af705673c9f24d11.svg#Agrandir Grand Light")
-      format("svg");
-}
 
 * {
   padding: 0;
@@ -27,18 +13,18 @@
 }
 
 :root {
-  --color-primary: #adbec9;
+  --color-primary: #e4e6e3;
 
-  --color-secondary: #ce7964;
+  --color-secondary: #e6865a;
 
-  --color-black: #111111;
+  --color-bg: #212121;
   --color-font: #393636;
   --color-white: #ffffff;
 }
 
 body {
-  font-family: "Agrandir Grand Light", sans-serif;
-  /* font-family: "Beatrice", sans-serif; */
+  /* font-family: "Agrandir Grand Light", sans-serif; */
+  font-family: "Beatrice", sans-serif;
   /* font-family: "Aileron Bold", sans-serif; */
   /* font-family: "Neue Montreal", sans-serif; */
 }
