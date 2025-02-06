@@ -2,17 +2,17 @@ import React from "react";
 import about from "../assets/images/about.png";
 import { GiGraduateCap } from "react-icons/gi";
 
+import Marquee from "react-fast-marquee";
+
 import "../styles/education.css";
 
 export default function Education() {
   return (
     <section id="education" className="education">
       <div className="education-container">
-        <div className="left-col">
-          <h2 className="education-title">Education</h2>
-          <img src={about} alt="Clocks" />
-        </div>
-        <div className="right-col">
+        <h2 className="education-title">Education & Skills </h2>
+
+        <div className="education-row">
           <div className="education-content">
             <div className="education-content-title">
               <GiGraduateCap className="graduate-icon" />
@@ -20,9 +20,23 @@ export default function Education() {
             </div>
 
             <p>
-              Depth knowledge of HTML, CSS, C++, python, django and studies in
-              UX/UI design principles and Agile methodologies.
+              Depth knowledge of C++, python, django and studies in UX/UI design
+              principles and Agile methodologies.
             </p>
+            <div className="marquee-container">
+              <div className="marquee">
+                <h3>Skills:</h3>
+                <Marquee pauseOnHover={false} direction="right" speed={70}>
+                  <div className="marquee-skill">Html</div>
+                  <div className="marquee-skill">CSS</div>
+                  <div className="marquee-skill">Bootstrap</div>
+                  <div className="marquee-skill">C++</div>
+                  <div className="marquee-skill">Python</div>
+                  <div className="marquee-skill">Django</div>
+                  <div className="marquee-skill">MySQL</div>
+                </Marquee>
+              </div>
+            </div>
           </div>
           <div className="education-content">
             <div className="education-content-title">
@@ -35,6 +49,23 @@ export default function Education() {
               Angular, C#, .NET, PostgreSQL and studies in UX/UI design
               principles and Agile methodologies.
             </p>
+            <div className="marquee-container">
+              <div className="marquee">
+                <h3>Skills:</h3>
+                <Marquee pauseOnHover={false} direction="left" speed={70}>
+                  <div className="marquee-skill">Html</div>
+                  <div className="marquee-skill">CSS</div>
+                  <div className="marquee-skill">JavaScript</div>
+                  <div className="marquee-skill">React</div>
+                  <div className="marquee-skill">TypeScript</div>
+                  <div className="marquee-skill">Angular</div>
+                  <div className="marquee-skill">C#</div>
+                  <div className="marquee-skill">.NET</div>
+                  <div className="marquee-skill">PostgreSQL</div>
+                  <div className="marquee-skill">UX/UI design</div>
+                </Marquee>
+              </div>
+            </div>
           </div>
           <div className="btn-container">
             <button className="button" type="button">

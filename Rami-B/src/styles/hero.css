@@ -18,10 +18,7 @@
   z-index: 9000;
   opacity: 0.09;
   pointer-events: none;
-  mix-blend-mode: exclusion;
-
   background-position: 0 0;
-
   inset: 0% auto auto 0%;
 }
 
@@ -51,7 +48,7 @@
 }
 
 .text-stroke {
-  font-size: 7.2rem;
+  font-size: 7.4rem;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;

@@ -38,7 +38,7 @@ export default function About() {
           >
             As a dedicated
             <strong className="strong-text"> Junior Frontend Developer </strong>
-            student, I am right now in the LIA (Learning in Work) phase of my
+            student, I am right now in the (Learning in Work) phase of my
             education and am looking for an internship that offers opportunities
             to learn more and grow in my role. I am ready for big challenges and
             expand my knowledge.
