@@ -4,6 +4,7 @@ import "../styles/hero.css";
 export default function Hero() {
   return (
     <section className="hero">
+      <div className="hero-layer"></div>
       <div className="hero-container">
         <span className="hero-span">
           <p>Hi i'm Rami B</p>
