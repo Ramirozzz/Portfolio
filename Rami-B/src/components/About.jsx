@@ -15,7 +15,7 @@ export default function About() {
     };
   }, []);
 
-  const textColor = scrollPosition > 470 ? "#222222" : "#c4c4c4";
+  const textColor = scrollPosition > 470 ? "#5c5b6b" : "#c4c4c4";
   return (
     <section id="about" className="about">
       <div className="about-container">

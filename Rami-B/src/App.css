@@ -2,8 +2,9 @@
 @import url("https://db.onlinewebfonts.com/c/adec4d42fc6c6391a3b0f391c45f7a64?family=Beatrice");
 @import url(https://db.onlinewebfonts.com/c/73e0fc96eb73ae25fd95435dd694cbb5?family=Aileron+Bold);
 @import url(https://db.onlinewebfonts.com/c/4366ceae6f7564999a0f0c3e8698a4ad?family=Neue+Montreal);
-
+@import url(https://db.onlinewebfonts.com/c/c35047219d7f3468b149e2aa6c2f84a7?family=Beatrice+Bold);
 @import url(https://db.onlinewebfonts.com/c/eccf30d3af8a69bf0b97f01c6d46b8e2?family=Agrandir+Grand+Heavy);
+@import url(https://db.onlinewebfonts.com/c/029689055aab954f65aac69f5bdfdd26?family=Clash+Display);
 
 * {
   padding: 0;
@@ -13,12 +14,13 @@
 }
 
 :root {
-  --color-primary: #e4e6e3;
+  --color-primary: #17182b;
 
-  --color-secondary: #e6865a;
+  --color-secondary: #ce7964;
 
-  --color-bg: #212121;
-  --color-font: #222222;
+  --color-bg: #f4f4f4;
+  --color-font: #17182bd8;
+  --color-font-light: #5c5b6b;
   --color-white: #ffffff;
 }
 
@@ -26,9 +28,14 @@ body {
   background-color: var(--color-white);
   /* font-family: "Agrandir Grand Light", sans-serif; */
   font-family: "Beatrice", sans-serif;
-
+  /* font-family: "Beatrice Bold",sans-serif; */
+  /* font-family: "Clash Display", sans-serif; */
   /* font-family: "Aileron Bold", sans-serif; */
   /* font-family: "Neue Montreal", sans-serif; */
+}
+
+a {
+  text-decoration: none;
 }
 
 #video {

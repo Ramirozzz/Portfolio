@@ -7,10 +7,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 30px;
-  margin: 0 40px;
+  margin: 0 50px;
   border-radius: 50px;
   backdrop-filter: blur(8px);
-  background-color: rgba(218, 218, 218, 0.1);
+  background-color: rgba(23, 24, 43, 0.1);
+  color: var(--color-font);
   opacity: 1;
   z-index: 999;
 }
@@ -22,25 +23,26 @@
 
 .navbar-bg li {
   color: var(--color-font) !important;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .navbar-bg .logo {
   font-size: 1.3rem;
   color: var(--color-font) !important;
-  font-weight: 800;
+  /* font-weight: 800; */
 }
 
 .logo {
-  font-size: 1.35rem;
-  color: var(--color-white);
-  font-weight: 500;
+  font-size: 1.3rem;
+
+  font-weight: 800;
   text-transform: uppercase;
 }
 
 .navbar-list li {
   display: inline-block;
   margin-left: 35px;
-  font-size: 1rem;
-  color: var(--color-white);
+  font-size: 0.95rem;
+  color: var(--color-font);
+  font-weight: 800;
 }

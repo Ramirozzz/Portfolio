@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import "../styles/layout.css";
 import About from "./About";
 import Education from "./Education";
+import Work from "./Work";
 
 export default function Layout() {
   return (
@@ -16,6 +17,7 @@ export default function Layout() {
         <Hero />
         <About />
         <Education />
+        <Work />
       </main>
     </>
   );

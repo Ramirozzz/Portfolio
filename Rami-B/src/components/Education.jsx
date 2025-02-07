@@ -67,7 +67,7 @@ export default function Education() {
               </div>
             </div>
           </div>
-          <div className="btn-container">
+          {/* <div className="btn-container">
             <button className="button" type="button">
               <span className="button__text">Download CV</span>
               <span className="button__icon">
@@ -86,7 +86,7 @@ export default function Education() {
                 </a>
               </span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
