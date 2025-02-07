@@ -1,11 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import "../styles/navbar.css";
 
 export default function Navbar() {
+  const [changeNavColor, setChangeNavColor] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 600) {
+        setChangeNavColor(true);
+      } else setChangeNavColor(false);
+    });
+  });
+
   return (
     <nav className="navbar">
-      <div className="navbar-container">
+      <div className={`navbar-container ${changeNavColor && "navbar-bg"}`}>
         <div className="navbar-logo">
           <p className="logo">Rami Balaghi</p>
         </div>

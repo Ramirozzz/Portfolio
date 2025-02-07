@@ -23,8 +23,10 @@
 }
 
 body {
+  background-color: var(--color-white);
   /* font-family: "Agrandir Grand Light", sans-serif; */
   font-family: "Beatrice", sans-serif;
+
   /* font-family: "Aileron Bold", sans-serif; */
   /* font-family: "Neue Montreal", sans-serif; */
 }
