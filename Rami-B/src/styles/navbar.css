@@ -42,7 +42,8 @@
 .navbar-list li {
   display: inline-block;
   margin-left: 35px;
-  font-size: 0.95rem;
+  font-size: 0.94rem;
   color: var(--color-font);
-  font-weight: 800;
+  font-weight: 500;
+  text-transform: uppercase;
 }
