@@ -8,7 +8,7 @@ import "../styles/work.css";
 
 export default function Work() {
   return (
-    <div id="work" className="work">
+    <section id="work" className="work">
       <h1 className="work-title">Some of my projects</h1>
       <div className="work-wrapper">
         <div className="work-container">
@@ -66,6 +66,6 @@ export default function Work() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

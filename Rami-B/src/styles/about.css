@@ -45,7 +45,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: var(--color-font);
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   padding: 3px;
   font-weight: 800;
+  font-family: "Beatrice bold", sans-serif;
 }

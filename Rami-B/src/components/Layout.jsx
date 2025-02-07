@@ -6,6 +6,7 @@ import "../styles/layout.css";
 import About from "./About";
 import Education from "./Education";
 import Work from "./Work";
+import Footer from "./Footer";
 
 export default function Layout() {
   return (
@@ -18,6 +19,7 @@ export default function Layout() {
         <About />
         <Education />
         <Work />
+        <Footer />
       </main>
     </>
   );
