@@ -1,6 +1,6 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/navbar.css";
+import Menu from "./Menu";
 
 export default function Navbar() {
   const [changeNavColor, setChangeNavColor] = useState(false);
@@ -35,6 +35,8 @@ export default function Navbar() {
 
           <li className="navbar-links resume-download">Resume</li>
         </ul>
+
+        <Menu />
       </div>
     </nav>
   );

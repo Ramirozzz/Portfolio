@@ -19,7 +19,7 @@ export default function Layout() {
         <About />
         <Education />
         <Work />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </>
   );

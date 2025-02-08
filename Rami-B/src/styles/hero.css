@@ -88,3 +88,85 @@
   padding: 16px 40px;
   color: var(--color-white);
 }
+
+@media screen and (max-width: 1050px) {
+  .hero-contact-info {
+    right: -2%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    padding-left: 50px;
+  }
+
+  .hero-contact-info {
+    display: none;
+  }
+
+  .hero-container h1 {
+    font-size: 5.5rem;
+  }
+
+  .text-stroke {
+    font-size: 5.5rem;
+  }
+
+  .hero-text-row {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    align-items: flex-end;
+  }
+
+  .hero-text {
+    padding: 16px 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .hero {
+    padding-left: 0px;
+  }
+
+  .hero-container {
+    padding-bottom: 50px;
+    padding-left: 20px;
+  }
+
+  .hero-container h1 {
+    font-size: 4.5rem;
+    line-height: 1.05;
+  }
+
+  .text-stroke {
+    font-size: 4.5rem;
+    -webkit-text-stroke-width: 2px !important;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+    border: none;
+    text-align: start;
+    margin-top: 20px;
+    line-height: 2;
+    padding: 0px 5px;
+  }
+
+  .hero-text-row {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-container h1 {
+    font-size: 4rem;
+  }
+
+  .text-stroke {
+    font-size: 4.1rem;
+  }
+}
