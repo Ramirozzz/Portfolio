@@ -28,10 +28,9 @@ export default function About() {
           style={{ color: textColor, transition: "all 0.8s ease" }}
         >
           My name is Rami Balaghi and I enjoy with passion creating dynamic web
-          experiences. My interest in
-          <strong className="strong-text"> Web Development</strong> is huge, and
-          I thrive when I'm creating, designing, learning, and constantly
-          thinking about how to improve and optimize. <br />
+          experiences. My interest in web development is huge, and I thrive when
+          I'm creating, designing, learning, and constantly thinking about how
+          to improve and optimize. <br />
           <span
             style={{ color: textColor, transition: "all 0.8s ease" }}
             className="about-text-span"

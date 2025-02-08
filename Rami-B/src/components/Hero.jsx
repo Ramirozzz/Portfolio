@@ -10,9 +10,6 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-layer"></div>
       <div className="hero-container">
-        {/* <span className="hero-span">
-          <p>Hi i'm Rami B</p>
-        </span> */}
         <h1>
           <span className="text-stroke">Junior </span> <br />
           Frontend <br /> developer

@@ -8,9 +8,9 @@ import "../styles/footer.css";
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-container">
+      {/* <div className="footer-container">
         <h1>Rami Balaghi</h1>
-      </div>
+      </div> */}
       <div className="footer-bottom-row">
         <div className="socials">
           <p className="footer-text">A Frontend developer student.</p>

@@ -3,7 +3,7 @@
 }
 
 .about-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 900;
   color: var(--color-font);
 
@@ -19,12 +19,12 @@
   /* -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text; */
+  font-family: "Beatrice bold", sans-serif;
   font-style: italic;
-  letter-spacing: 1px;
 }
 
 .about-text {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   text-indent: 12%;
   line-height: 1.6;
   margin: 45px 0;
@@ -38,13 +38,13 @@
 }
 
 .about-text .strong-text {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   /* background-image: radial-gradient(circle at 80% 0, #fcd3ca, #e6865a 50%); */
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   color: var(--color-font);
-  background-color: var(--color-font);
+  background-color: #212121d8;
   padding: 3px;
   font-weight: 800;
   font-family: "Beatrice bold", sans-serif;

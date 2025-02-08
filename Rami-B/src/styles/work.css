@@ -6,6 +6,8 @@
   font-size: 2rem;
   color: var(--color-font);
   margin-bottom: 30px;
+  letter-spacing: -0.8px;
+  font-family: "Beatrice bold", sans-serif;
 }
 
 .work-container {
@@ -72,7 +74,7 @@
   background-color: rgba(179, 157, 143, 0.1);
   opacity: 0.8;
   min-width: 90%;
-  padding: 15px 30px;
+  padding: 15px 23px;
   border-radius: 40px;
   cursor: pointer;
 }

@@ -33,7 +33,7 @@ export default function Navbar() {
             <li className="navbar-links">Work</li>
           </a>
 
-          <li className="navbar-links resume-download">Resume</li>
+          <li className="navbar-links resume-download">Download CV</li>
         </ul>
 
         <Menu changeNavColor={changeNavColor} />

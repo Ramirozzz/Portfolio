@@ -31,8 +31,8 @@
 }
 
 .logo {
-  font-size: 1.35rem;
-
+  font-size: 1.15rem;
+  /* font-family: "Aileron Bold", sans-serif; */
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -48,15 +48,16 @@
 
 .resume-download {
   background-color: var(--color-white);
-  padding: 9px 23px;
+  padding: 9px 20px;
   border-radius: 30px;
-  font-size: 0.91rem !important;
+  font-size: 0.9rem !important;
+  font-weight: 800;
   color: var(--color-font) !important;
   cursor: pointer;
 }
 
 .navbar-bg .resume-download {
-  background-color: var(--color-primary);
+  background-color: var(--color-font);
   color: var(--color-white) !important;
 }
 
