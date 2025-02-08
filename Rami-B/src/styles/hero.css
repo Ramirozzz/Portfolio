@@ -138,11 +138,11 @@
   }
 
   .hero-layer {
-    height: 600px;
+    height: 650px;
   }
 
   .hero-container {
-    padding-bottom: 75px;
+    padding-bottom: 70px;
     padding-left: 15px;
   }
 
@@ -176,6 +176,10 @@
   }
 
   .text-stroke {
-    font-size: 3.5rem;
+    font-size: 3.4rem;
+  }
+
+  .hero-text {
+    padding: 0px 7px;
   }
 }
