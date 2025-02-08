@@ -122,6 +122,10 @@
     align-items: flex-end;
   }
 
+  .hero-container {
+    padding-bottom: 50px;
+  }
+
   .hero-text {
     padding: 16px 20px;
   }

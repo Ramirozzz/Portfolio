@@ -49,3 +49,29 @@
   font-weight: 800;
   font-family: "Beatrice bold", sans-serif;
 }
+
+@media screen and (max-width: 1000px) {
+  .about {
+    margin: 100px 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    margin: 70px 20px;
+  }
+
+  .about-title {
+    font-size: 1.2rem;
+  }
+
+  .about-text {
+    font-size: 1.15rem;
+
+    margin: 35px 0;
+  }
+
+  .about-text .strong-text {
+    font-size: 1.2rem;
+  }
+}
