@@ -31,16 +31,6 @@
   border: 2px solid var(--color-secondary);
 }
 
-/* .work-item2 {
-  position: relative;
-  background-image: url(../assets/images/43.png);
-  width: 100%;
-  min-height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 25px;
-} */
-
 /* .bg-layer {
   position: absolute;
   background-image: url(../assets/images/layer.png);
@@ -122,6 +112,11 @@
 @media screen and (max-width: 600px) {
   .work {
     margin: 100px 20px;
+  }
+
+  .work-title {
+    font-size: 1.6rem;
+    text-align: center;
   }
 
   .work-container {

@@ -134,16 +134,21 @@
 @media screen and (max-width: 660px) {
   .hero {
     padding-left: 0px;
+    height: 700px;
+  }
+
+  .hero-layer {
+    height: 700px;
   }
 
   .hero-container {
-    padding-bottom: 50px;
-    padding-left: 20px;
+    padding-bottom: 80px;
+    padding-left: 15px;
   }
 
   .hero-container h1 {
     font-size: 4.5rem;
-    line-height: 1.05;
+    line-height: 1.08;
   }
 
   .text-stroke {
@@ -167,10 +172,10 @@
 
 @media screen and (max-width: 500px) {
   .hero-container h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .text-stroke {
-    font-size: 4.1rem;
+    font-size: 3.5rem;
   }
 }

@@ -82,7 +82,11 @@
 
 @media screen and (max-width: 660px) {
   .navbar-container {
-    padding: 10px 15px;
-    margin: 0 15px;
+    padding: 10px 13px;
+    margin: 0 7px;
+  }
+
+  .logo {
+    font-size: 1.1rem;
   }
 }

@@ -105,7 +105,37 @@
     margin: 70px 20px;
   }
 
+  .education-title {
+    font-size: 1.6rem;
+  }
+
   .education-content {
     padding: 20px 20px;
+  }
+
+  .education-content-title {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .graduate-icon {
+    font-size: 4.7rem;
+    color: var(--color-primary);
+  }
+
+  .education-content h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .education-content p {
+    font-size: 0.85rem;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 15px;
+  }
+
+  .marquee {
+    padding: 10px 0;
   }
 }
