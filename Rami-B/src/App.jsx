@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import Layout from "./components/Layout";
 import intro from "../src/assets/videos/intro.mp4";
 import Home from "./pages/Home";
@@ -29,11 +30,11 @@ function App() {
         />
       ) : (
         <div className="portfolio">
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route index element={<Home />} />
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </div>
       )}
     </>
