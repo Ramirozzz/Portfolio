@@ -16,7 +16,7 @@ export default function Work() {
             <div className="bg-layer"></div>
             <div className="work-prj-name">
               <h4>sten sax påse</h4>
-              <p>Game By JavaScript</p>
+              <p>JavaScript Game Project</p>
             </div>
 
             <div className="work-info">
@@ -33,7 +33,7 @@ export default function Work() {
             <div className="bg-layer"></div>
             <div className="work-prj-name">
               <h4>RB Store</h4>
-              <p> Webshop By React JS</p>
+              <p>React JS Project</p>
             </div>
 
             <div className="work-info">
@@ -51,7 +51,7 @@ export default function Work() {
             <div className="bg-layer"></div>
             <div className="work-prj-name">
               <h4> Recipes Blog</h4>
-              <p>Game By JavaScript</p>
+              <p>Angular Project</p>
             </div>
 
             <div className="work-info">

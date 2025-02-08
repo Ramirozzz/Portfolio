@@ -14,14 +14,15 @@
 }
 
 :root {
-  --color-primary: #17182b;
-
+  /* --color-primary: #17182b; */
+  --color-primary: #222222;
   /* --color-secondary: #ce7964; */
   --color-secondary: #5c5b6b;
-
   --color-bg: #f4f4f4;
-  --color-font: #17182bd8;
-  --color-font-light: #5c5b6b;
+  /* --color-font: #17182bd8; */
+  --color-font: #212121ec;
+  /* --color-font-light: #5c5b6b; */
+  --color-font-light: #212121d8;
   --color-white: #ffffff;
 }
 

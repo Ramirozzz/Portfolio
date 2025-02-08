@@ -1,11 +1,6 @@
 .education {
   margin: 100px;
 }
-.education-container {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-}
 
 .education-title {
   font-size: 2rem;
@@ -92,8 +87,8 @@
   padding: 5px 30px;
   color: var(--color-font);
   /* background-color: #ce796496; */
-  background-color: #5c5b6b27;
-  box-shadow: 0 1px 1px rgba(94, 94, 94, 0.1);
+  background-color: #ffffff;
+  box-shadow: 0 1px 6px rgba(94, 94, 94, 0.3);
   font-weight: 500 !important;
   border-radius: 30px;
   text-transform: uppercase;

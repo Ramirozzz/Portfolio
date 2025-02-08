@@ -1,13 +1,16 @@
 .hero {
   position: relative;
+  padding-top: 14vh;
   display: flex;
-  justify-content: center;
+
+  padding-left: 80px;
   align-items: center;
   height: 100vh;
   width: 100%;
   /* background-image: url(../assets/images/project.jpg);
   background-size: cover; */
-  background-color: var(--color-bg);
+  background-color: var(--color-primary);
+  overflow: hidden;
 }
 
 .hero-layer {
@@ -23,42 +26,55 @@
   inset: 0% auto auto 0%;
 }
 
-.hero-container {
-  padding-top: 10vh;
-}
-
-.hero-span p {
+/* .hero-span p {
   font-size: 1.4rem;
   font-style: italic;
   font-family: "Agrandir Grand Light", sans-serif;
   font-weight: 800;
   text-transform: capitalize;
-  text-align: center;
   letter-spacing: 2px;
-  line-height: 2.5;
-  color: var(--color-font);
-}
+  line-height: 1.5;
+  color: var(--color-white);
+} */
 
 .hero-container h1 {
-  font-size: 7.3rem;
+  font-size: 7.5rem;
   font-weight: 900;
   line-height: 0.95;
-  text-align: center;
   text-transform: uppercase;
-  color: var(--color-font);
+  color: var(--color-white);
+  /* font-family: "Clash Display", sans-serif; */
+  font-family: "Beatrice Bold", sans-serif;
 }
 
 .text-stroke {
-  font-size: 7rem;
+  font-size: 7.5rem;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: var(--color-bg) !important;
-  font-family: "Neue Montreal", sans-serif !important;
+  color: var(--color-font) !important;
+  /* font-family: "Neue Montreal", sans-serif !important; */
   /* font-family: "Clash Display", sans-serif; */
+  font-family: "Beatrice Bold", sans-serif;
   -webkit-text-stroke-width: 3px !important;
-  -webkit-text-stroke-color: var(--color-font) !important;
+  -webkit-text-stroke-color: var(--color-white) !important;
+}
+
+.hero-text-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.hero-contact-info {
+  position: absolute;
+  right: 2%;
+
+  font-size: 1rem;
+  margin-right: 85px;
+  color: var(--color-white);
 }
 
 .hero-text {
@@ -66,9 +82,9 @@
   font-weight: 500;
   text-align: center;
   letter-spacing: 1px;
-  margin-top: 35px;
-  border: 1px solid var(--color-font);
+  margin-top: 25px;
+  border: 1px solid var(--color-white);
   border-radius: 30px;
-  padding: 16px 0;
-  color: var(--color-font);
+  padding: 16px 40px;
+  color: var(--color-white);
 }
