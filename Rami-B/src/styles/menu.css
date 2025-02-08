@@ -11,6 +11,111 @@
   padding: 10px 22px;
 }
 
+.toggleMenu-colors {
+  border: 1px solid var(--color-font);
+  color: var(--color-font);
+}
+
 .menu-icon {
   font-size: 1.6rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 110%;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 400px;
+  left: 0;
+  border-radius: 30px;
+}
+
+.menu-list li {
+  list-style: none;
+  font-size: 1.6rem;
+  color: var(--color-font);
+  margin: 10px 0;
+}
+
+/* Resume Button */
+
+.btn-container {
+  width: 210px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  position: relative;
+  width: 100%;
+  height: 52px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 30px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.button,
+.button__icon,
+.button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(-16px);
+  color: var(--color-white);
+  font-size: 0.93rem;
+  font-weight: 500;
+  font-family: "Beatrice";
+  letter-spacing: 1.4px;
+}
+
+.button .button__icon {
+  position: absolute;
+  transform: translateX(70px);
+  height: 100%;
+  width: 39px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button .svg {
+  width: 20px;
+  fill: var(--color-white);
+}
+
+.button:hover .svg {
+  fill: var(--color-white);
+}
+
+.button:hover {
+  background: var(--color-secondary);
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 148px;
+  transform: translateX(0);
+}
+
+.button:active .button__icon {
+  background-color: var(--color-font);
+}
+
+.button:active {
+  border: 1px solid var(--color-font);
 }

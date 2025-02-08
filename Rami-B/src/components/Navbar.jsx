@@ -8,7 +8,7 @@ export default function Navbar() {
   // Changing text color on scroll
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 600) {
+      if (window.scrollY > 650) {
         setChangeNavColor(true);
       } else setChangeNavColor(false);
     });
@@ -36,7 +36,7 @@ export default function Navbar() {
           <li className="navbar-links resume-download">Resume</li>
         </ul>
 
-        <Menu />
+        <Menu changeNavColor={changeNavColor} />
       </div>
     </nav>
   );
