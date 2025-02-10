@@ -9,7 +9,7 @@ export default function Menu({ changeNavColor }) {
 
   return (
     <div className="menu">
-      <div className="menu-container">
+      <div className="menu-container ">
         {!toggleMenu ? (
           <button
             onClick={() => setToggleMenu(true)}
@@ -32,7 +32,7 @@ export default function Menu({ changeNavColor }) {
         )}
 
         {toggleMenu && (
-          <ul className="menu-list">
+          <ul className="menu-list scale-up-center">
             <a href="#about">
               <li className="menu-links">About</li>
             </a>

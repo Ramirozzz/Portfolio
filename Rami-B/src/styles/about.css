@@ -19,7 +19,7 @@
   /* -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text; */
-  font-family: "Beatrice bold", sans-serif;
+
   font-style: italic;
 }
 
@@ -62,16 +62,17 @@
   }
 
   .about-title {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
   .about-text {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     text-indent: 0%;
     margin: 35px 0;
+    line-height: 1.5;
   }
 
   .about-text .strong-text {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
   }
 }

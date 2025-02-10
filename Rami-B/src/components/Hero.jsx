@@ -11,8 +11,8 @@ export default function Hero() {
       <div className="hero-layer"></div>
       <div className="hero-container">
         <h1>
-          <span className="text-stroke">Junior </span> <br />
-          Frontend <br /> developer
+          <span className="text-stroke">Rami B </span> <br />
+          Frontend <br /> developer <br /> Student.
         </h1>
 
         <div className="hero-text-row">

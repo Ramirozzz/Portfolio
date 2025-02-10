@@ -6,8 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px;
-  margin: 0 50px;
+  padding: 10px 20px;
+  margin: 0 60px;
   border-radius: 50px;
   backdrop-filter: blur(8px);
   background-color: rgb(244, 244, 244, 0.1);
@@ -16,23 +16,9 @@
   z-index: 999;
 }
 
-.navbar-bg {
-  backdrop-filter: blur(10px);
-  background-color: rgba(172, 172, 172, 0.1);
-}
-
-.navbar-bg li {
-  color: var(--color-font) !important;
-}
-
-.navbar-bg .logo {
-  font-size: 1.3rem;
-  color: var(--color-font) !important;
-}
-
 .logo {
   font-size: 1.15rem;
-  /* font-family: "Aileron Bold", sans-serif; */
+
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -54,6 +40,20 @@
   font-weight: 800;
   color: var(--color-font) !important;
   cursor: pointer;
+}
+
+.navbar-bg {
+  backdrop-filter: blur(10px);
+  background-color: rgba(172, 172, 172, 0.1);
+}
+
+.navbar-bg li {
+  color: var(--color-font) !important;
+}
+
+.navbar-bg .logo {
+  font-size: 1.3rem;
+  color: var(--color-font) !important;
 }
 
 .navbar-bg .resume-download {
@@ -83,11 +83,12 @@
 
 @media screen and (max-width: 660px) {
   .navbar-container {
-    padding: 10px 13px;
-    margin: 0 7px;
+    padding: 9px 13px;
+    margin: 0 14px;
   }
 
   .logo {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
   }
 }

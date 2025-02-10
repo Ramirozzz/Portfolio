@@ -30,11 +30,12 @@ function App() {
         />
       ) : (
         <div className="portfolio">
-          <HashRouter>
+          {/* <BrowserRouter>
             <Routes>
               <Route index element={<Home />} />
             </Routes>
-          </HashRouter>
+          </BrowserRouter> */}
+          <Home />
         </div>
       )}
     </>
